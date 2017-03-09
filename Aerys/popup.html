@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Popup</title>
+<style>
+    html body{
+        width : 300px;
+        padding: 0;
+        margin: 0;
+        overflow: scroll;
+        cursor: default;
+        user-select: none;
+        -webkit-user-select: none; 
+    }
+    /*favicon 30px wide*/
+    .favicon{   
+        width:  16px;
+        height: 16px;
+        padding: 7px 0 7px 10px;
+        display: inline-block;      
+        vertical-align:top;
+        
+    }
+ 
+    .count{
+        display: inline-block;
+        width: 210px;
+        height: 30px;
+        overflow: hidden;
+        word-break: break-all;
+        line-height: 30px;
+        vertical-align:top;
+        padding: 0 10px;
+        font-size: 12px;
+        user-select: none;
+        -webkit-user-select: none; 
+    }
+
+    .count span{
+        color: #757575;
+    }
+    .icon_wrap{
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s;
+        
+    }
+    .hide{
+        background-color: #F5F5F5;
+        display: none;
+    }
+    /*button 40px wide*/
+    .close_icon{
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        right: 0;
+        /*background-color: red;*/
+        display: inline-block;
+        /*float: right;*/
+        transition: all 0.2s;
+        text-align: center;
+    }
+    .close_img{
+        position: absolute;
+        padding-top: 9px;
+        left: 13px;
+        width: 13px;
+    }
+
+    @keyframes quit {
+      0% { width: 40px; height: 30px; }
+      60% { width: 300px; height: 30px;}
+      100% { width: 300px; height: 0px; }
+    }
+    @keyframes lineShrink {
+      0% {  height: 30px; }
+      60% { height: 30px;}
+      100% { height: 0px; }
+    }
+
+</style>
+</head>
+<body>
+    <div id="icons"></div>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
