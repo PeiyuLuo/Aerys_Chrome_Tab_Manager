@@ -1,0 +1,20 @@
+{
+    "appName": {
+        "message": "Aerys - 窗口標簽管理器"
+    },
+    "appDesc": {
+        "message": "總是打開太多標簽頁？快來用Aerys幫你歸類和整理標簽！"
+    },
+    "disableTabNumber": {
+        "message": "隱藏標簽頁數量的標記"
+    },
+    "disableHistory": {
+        "message": "不再顯示最近關閉的標簽頁"
+    },
+    "closed_tabs_number_text": {
+        "message": "最多可以顯示的最近關閉標簽頁的數量"
+    },
+    "changeTabsOrder": {
+        "message": "點擊分組時，匯聚排列同組標簽頁"
+    }
+}

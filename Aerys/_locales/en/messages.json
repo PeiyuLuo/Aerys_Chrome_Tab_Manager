@@ -1,0 +1,20 @@
+{
+    "appName": {
+        "message": "Aerys - Tab Manager"
+    },
+    "appDesc": {
+        "message": "Open too many tabs in your browser? Don't worry, let Aerys II Targaryen, also knownd as the Mad King, help you burn them all!"
+    },
+    "disableTabNumber": {
+        "message": "Disable display number of tabs on icon"
+    },
+    "disableHistory": {
+        "message": "Disable recently closed history"
+    },
+    "closed_tabs_number_text": {
+        "message": "Max number of tabs in rencently closed"
+    },
+    "changeTabsOrder": {
+        "message": "Realign tabs together by class when clicked in popup"
+    }
+}

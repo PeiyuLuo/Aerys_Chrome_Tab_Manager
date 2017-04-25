@@ -1,15 +1,18 @@
 {
     "manifest_version": 2,
-    "name":"Aerys - Tab Manager",
-    "version": "1.1",
-    "description": "Open too many tabs in your browser? Don't worry, let Aerys II Targaryen, also knownd as the Mad King, help you burn them all!",
+    "name":"__MSG_appName__",
+    "version": "1.5.9",
+    "description": "__MSG_appDesc__",
+    "default_locale":"en",
+    "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
     "permissions":[
+        "storage",
         "tabs",
         "<all_urls>"
     ],
 
     "browser_action":{
-        "default_title":"Aerys - Your Tab Guard",
+        "default_title":"Aerys - Your Tab Manager",
         "default_popup":"popup.html",
         "default_icon": { "32": "images/icon32.png" }
     },
@@ -19,8 +22,11 @@
                          "16": "images/icon16.png" },
 
     "background":{
-        "scripts":["background.js"],
-        "persistent":false
+        "scripts":["background.js"]
+    },
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
     }
 
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aerys Tab Manager Options</title>
+  <style>
+    body { padding: 10px; }
+    div{
+      margin-bottom: 5px;
+      padding-top: 8px;
+      -webkit-user-select: none;
+      user-select: none;
+      } 
+    #closed_tabs_number{
+      width: 16px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <label id="t1">
+      <input type="checkbox" id="disableTabNumber">
+      <!-- Disable display tabs number on icon -->
+    </label>
+  </div>
+
+  <div>
+    <label id="t2">
+      <input type="checkbox" id="disableHistory">
+      <!-- Disable recently closed history -->
+    </label>
+  </div>
+
+  <div id="closed_tabs_number_text">
+      <input type="input" id="closed_tabs_number" value="8">
+      <!-- Max number of tabs in rencently closed -->
+  </div>
+
+  <div>
+    <label id="t4">
+      <input type="checkbox" id="changeTabsOrder">
+      <!-- Realign tabs together by class when it's toggled in popup -->
+    </label>
+  </div>
+
+
+  <script src="options.js"></script>
+</body>
+</html>

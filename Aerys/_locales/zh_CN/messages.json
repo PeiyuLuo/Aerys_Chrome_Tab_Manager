@@ -1,0 +1,20 @@
+{
+    "appName": {
+        "message": "Aerys - 窗口标签管理器"
+    },
+    "appDesc": {
+        "message": "总是打开太多标签页？快来用Aerys帮你归类和整理标签！"
+    },
+    "disableTabNumber": {
+        "message": "隐藏标签页数量的标记"
+    },
+    "disableHistory": {
+        "message": "不再显示最近关闭的标签页"
+    },
+    "closed_tabs_number_text": {
+        "message": "最多可以显示的最近关闭标签页的数量"
+    },
+    "changeTabsOrder": {
+        "message": "点击分组时，汇聚排列同组标签页"
+    }
+}
